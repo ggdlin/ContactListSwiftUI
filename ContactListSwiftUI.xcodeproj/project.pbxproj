@@ -11,6 +11,12 @@
 		E66604B125951D1D009F1EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66604B025951D1D009F1EC3 /* ContentView.swift */; };
 		E66604B325951D21009F1EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66604B225951D21009F1EC3 /* Assets.xcassets */; };
 		E66604B625951D21009F1EC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66604B525951D21009F1EC3 /* Preview Assets.xcassets */; };
+		E66604BF25951DFB009F1EC3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66604BE25951DFB009F1EC3 /* Person.swift */; };
+		E66604C225951EC4009F1EC3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66604C125951EC4009F1EC3 /* DataManager.swift */; };
+		E66604C6259520F3009F1EC3 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66604C5259520F3009F1EC3 /* ContactListView.swift */; };
+		E66604C9259526A1009F1EC3 /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66604C8259526A1009F1EC3 /* ContactRowView.swift */; };
+		E66604CC25952F29009F1EC3 /* DetailedInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66604CB25952F29009F1EC3 /* DetailedInfoView.swift */; };
+		E66604CF25953E94009F1EC3 /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66604CE25953E94009F1EC3 /* NumbersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		E66604B225951D21009F1EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66604B525951D21009F1EC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E66604B725951D21009F1EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E66604BE25951DFB009F1EC3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E66604C125951EC4009F1EC3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = SOURCE_ROOT; };
+		E66604C5259520F3009F1EC3 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		E66604C8259526A1009F1EC3 /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
+		E66604CB25952F29009F1EC3 /* DetailedInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInfoView.swift; sourceTree = "<group>"; };
+		E66604CE25953E94009F1EC3 /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +66,13 @@
 			children = (
 				E66604AE25951D1D009F1EC3 /* ContactListSwiftUIApp.swift */,
 				E66604B025951D1D009F1EC3 /* ContentView.swift */,
+				E66604C5259520F3009F1EC3 /* ContactListView.swift */,
+				E66604C8259526A1009F1EC3 /* ContactRowView.swift */,
+				E66604CB25952F29009F1EC3 /* DetailedInfoView.swift */,
+				E66604CE25953E94009F1EC3 /* NumbersView.swift */,
 				E66604B225951D21009F1EC3 /* Assets.xcassets */,
+				E66604BE25951DFB009F1EC3 /* Person.swift */,
+				E66604C125951EC4009F1EC3 /* DataManager.swift */,
 				E66604B725951D21009F1EC3 /* Info.plist */,
 				E66604B425951D21009F1EC3 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66604C6259520F3009F1EC3 /* ContactListView.swift in Sources */,
+				E66604BF25951DFB009F1EC3 /* Person.swift in Sources */,
+				E66604C225951EC4009F1EC3 /* DataManager.swift in Sources */,
+				E66604CF25953E94009F1EC3 /* NumbersView.swift in Sources */,
 				E66604B125951D1D009F1EC3 /* ContentView.swift in Sources */,
+				E66604CC25952F29009F1EC3 /* DetailedInfoView.swift in Sources */,
+				E66604C9259526A1009F1EC3 /* ContactRowView.swift in Sources */,
 				E66604AF25951D1D009F1EC3 /* ContactListSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
